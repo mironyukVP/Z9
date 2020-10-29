@@ -1,0 +1,27 @@
+===============================================================================
+Default:
+Z9M4_ZM3E4_V1_2_0_en(es,pt,ru,fr)
+===============================================================================
+Feature:
+Printer Model: Z9M4
+Control board: ZM3E4
+LCD          : support ZONESTAR 128x64 LCD Screen, connect it to EXP1 connector
+TFT-LCD      : support connect to EXP2 connector
+Bed Leveling : PL-08N sensor
+Extruder     : Titan Extruder
+LCD language : English/Spainish/Portuguese/Russian/French
+Motor Driver : Default A4988 module drivers 
+
+===============================================================================
+Upgrade TMC220x in XYZ axis
+Z9M4_ZM3E4_TMC220xXYZ_V1_2_0_en(es,pt,ru,fr)
+===============================================================================
+Feature:
+Printer Model: Z9M4
+Control board: ZM3E4
+LCD          : support ZONESTAR 128x64 LCD Screen, connect it to EXP1 connector
+TFT-LCD      : support connect to EXP2 connector
+Bed Leveling : PL-08N sensor
+Extruder     : Titan Extruder
+LCD language : English/Spainish/Portuguese/Russian/French
+Motor Driver : TMC2208 or TMC2209 module drivers be used to XYZ motor
