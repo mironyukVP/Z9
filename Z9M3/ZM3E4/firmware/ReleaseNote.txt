@@ -1,0 +1,82 @@
+==============================================================
+FileName: Z9M3_ZM3E4_Titan_en_V5_3_0
+Data: 	  2020-10-29
+Version:  5.3.0
+[DEBUG]: Base on Marlin2.0.8
+==============================================================
+FileName: Z9M3_ZM3E4_Titan_en_V5_0_1
+Data: 	  2020-08-08
+Version:  5.0.1
+[DEBUG]: Fix the buzzer did't work issue
+==============================================================
+FileName: Z9M3_ZM3E4_en_V5
+Data: 	  2020-08-06
+Version:  5.0
+NOTE: the first release version for Z9M3 for ZM3E4 control board
+==============================================================
+
+
+===============================================================================
+Feature:
+TFT_LCD connect to EXP2 connector
+LCD12864 connect to EXP1 connector
+===============================================================================
+Z9M3
+----------------
+Control board	: ZM3E4
+Exturder     	: Default
+LCD SCREEN   	: LCD128x64 or TFT-LCD
+Leveling Sensor	: PL-08N
+Motor Diver     : A4988
+===============================================================================
+Titan Extruder:
+----------------
+Control board	: ZM3E4
+Exturder     	: Titan 
+LCD SCREEN   	: LCD128x64 or TFT-LCD
+Leveling Sensor	: PL-08N
+Motor Diver     : A4988
+===============================================================================
+Z9M3_Titan + 3DTouch:
+----------------
+Control board	: ZM3E4
+Exturder     	: Titan 
+LCD SCREEN   	: LCD128x64 or TFT-LCD
+Leveling Sensor	: 3D Touch
+Motor Diver     : A4988
+===============================================================================
+Z9M3_Titan + TMC220xXYZ:
+----------------
+Control board	: ZM3E4
+Exturder     	: Titan 
+LCD SCREEN   	: LCD128x64 or TFT-LCD
+Leveling Sensor	: PL-08N
+Motor Diver     : TMC2208 or TMC2209 be used to X/Y/Z axis
+===============================================================================
+Z9M3_Titan + TMC220xXYZE:
+----------------
+Control board	: ZM3E4
+Exturder     	: Titan 
+LCD SCREEN   	: LCD128x64 or TFT-LCD
+Leveling Sensor	: PL-08N
+Motor Diver     : TMC2208 or TMC2209 be used all axis
+===============================================================================
+Z9M3_Titan + TMC220xXYZE + 3dTouch:
+----------------
+Control board	: ZM3E4
+Exturder     	: Titan 
+LCD SCREEN   	: LCD128x64 or TFT-LCD
+Leveling Sensor	: 3D Touch
+Motor Diver     : TMC2208 or TMC2209 be used all axis
+===============================================================================
+Z9M3_Titan + TMC220xXYZE + DualZ + Dual ZENDSTOP:
+----------------
+Control board	: ZM3E4
+Exturder     	: Titan 
+LCD SCREEN   	: LCD128x64 or TFT-LCD
+Leveling Sensor	: PL-08N
+Motor Diver     : TMC2208 or TMC2209 be used all axis
+Others          : Dual Z drive motors and ENDSTOPs
+===============================================================================
+
+
