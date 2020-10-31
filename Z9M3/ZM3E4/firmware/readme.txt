@@ -19,10 +19,9 @@ if you didn't use the 2nd Z endstop, keep the Z axis sync belt and don't need to
 
 ===============================================================================
 About the firmware name:
-Z9M3_ZM3E4_xxx(add features)_V(version)_en(Menu language).bin
+Model_Control board_features_version_Menulanguage.bin, e;g.:
+Z9M3(Model)_ZM3E4(Control board)_TITAN(Titan extruder)_V(version)_en(Menu language).bin
 ===============================================================================
-
-
 
 ===============================================================================
 firmware file description:
