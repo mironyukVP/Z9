@@ -1,20 +1,24 @@
 ==============================================================
-FileName: Z9M3_ZM3E4_Titan_en_V5_3_0
-Data: 	  2020-10-29
+Version:  5.3.2
+Data: 	  2020-11-17
+[DEBUG]:  Fix issue of power loss resume
+[DEBUG]:  Calibrate the accuracy of "Catched the probe offset"
+[DEBUG]:  Stop movement XYZ when ENDSTOP triggered
+[DEBUG]:  Fix issue of DualZ ENDSTOP firmware
+==============================================================
 Version:  5.3.0
+Data: 	  2020-10-29
 [NEW]:   Base on Marlin2.0.8
 [NEW]:   Enable Dual Z Motor drive (Compatible with single z-axis drive)
 [NEW]:   Add auto leveling menu
 [DEBUG]: Improve the accuracy of catch probe off
 ==============================================================
-FileName: Z9M3_ZM3E4_Titan_en_V5_0_1
-Data: 	  2020-08-08
 Version:  5.0.1
+Data: 	  2020-08-08
 [DEBUG]: Fix the buzzer did't work issue
 ==============================================================
-FileName: Z9M3_ZM3E4_en_V5
+Version:  5.0.0
 Data: 	  2020-08-06
-Version:  5.0
 NOTE: the first release version for Z9M3 for ZM3E4 control board
 ==============================================================
 
