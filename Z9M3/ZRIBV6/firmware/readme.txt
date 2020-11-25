@@ -36,28 +36,38 @@ NOTE: It is only shut down the control board, but not the Power supply
   -a push button should connect to the power on jumper.
   -a LED connect to VCC & GND
 this feature is default on since V5.3.x
+Puchase link: https://www.aliexpress.com/item/1005001633938984.html
 
 =============================================================================
 Option feature:
 =============================================================================
+Filament run out sensor:
+This feature is default on, don't need to upgrade the firmware please check on configuaration menu of the LCD screen to active it:
+Purchase link: https://www.aliexpress.com/item/4001309957376.html
+
 TMC220x:
 TMC220x motor dirver is reversed on the work direction with A4988
-PS:If you only changed (X, Y,Z) driver modules, please modify the motor wires (1A and 1B) of X(YZ) motor and use the default feature
+PS:If you only changed (X, Y,Z) driver modules, please modify the X(YZ) motor wires and use the default firmware(without TMC220x at the firmware file name).
+About the detail of how to modify the motor direction by modifying motor wire, please refer to "How to change the motor work direction.png" 
+Puchase link: TMC2208: https://www.aliexpress.com/item/4000596369015.html
+Puchase link: TMC2209: https://www.aliexpress.com/item/1005001664336751.html
 
 TFT-LCD:  	 	
 TFT-LCD screen use EXP1 connector pins of +5/GNG/D16/D17,it is connected to UART2 of ATMEGA2560
 D16<=>TXD2 
 D17<=>RXD2
 ATTENTION: for ZRIB control board, TFT-LCD and LCD12864 can't work at the same time 
+Puchase link: https://www.aliexpress.com/item/1005001314076252.html
+
+Dual Z Driver:
+Defaulf Z9 use a sync single Z drive system, you can upgrade it to dual Z motor with or without 2nd Z endstop.
+Purchase link:  https://www.aliexpress.com/item/1005001633367116.html
 
 3Dtouch:
 Defaulf Z9 use a proximity sensor as a bed leveling sensor, if you upgrade it to BLtouch or 3D touch, please choose this firmware
 Hardware:
 D4 - SERVO PIN (S PIN of 3DTouch)
 Z+ - Probe Pin (Z- PIN of 3DTouch)
-
-Dual Z Driver:
-Defaulf Z9 use a sync single Z drive system, you can upgrade it to dual Z motor with dual Z endstop.
-
+Purchase link:  https://www.aliexpress.com/item/1005001464420529.html
 
 
