@@ -5,6 +5,16 @@ Firmware Upload Steps for ZM3Ex:
 4. Power off the printer and plug the Micro-SD card into socket on control board
 5. Power on the printer, wait about 30 seconds
 ===============================================================================
+Do the below setps after uploaded firmware:
+For LCD 128x64:
+LCD MENU>>Configuaration>>Advanced setting>>Initlize EEPROM
+LCD MENU>>Configuaration>>Advanced setting>>Temperature>>PID AutoTune E1: 190 -->set this value and push the knob to star
+
+For TFT_LCD 128x64:
+Copy "ResetNVRAM.gcode" to SD card and print it to initlize EEPROM
+Copy "TempCal_PLA.gcode or TempCal_PLA.gcode " to SD card and print it to fine tune the PID parameters of hotend
+===============================================================================
+
 
 ===============================================================================
 How to Connect the LCD screen and TFT-LCD screen:
