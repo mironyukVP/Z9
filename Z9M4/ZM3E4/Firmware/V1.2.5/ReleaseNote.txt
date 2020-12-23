@@ -1,0 +1,20 @@
+===============================================================================
+Release Note:
+===============================================================================
+Date:    2020-12-04
+Version: V1.2.5
+NOTE:
+[DEBUG] Correct the display temperature when the ambient temperature is low
+
+
+Date:    2020-11-09
+Version: V1.2.4
+NOTE:
+[DEBUG] fix an issue of power loss resume:
+when auto leveling feature is enable, it doesn't work well when resume from power loss
+
+Date:    2020-11-05
+Version: V1.2.3
+NOTE:
+[DEBUG] fix an issue: when the file in the root directory on SD card, 
+"power loss fail resume" can't start to work.
